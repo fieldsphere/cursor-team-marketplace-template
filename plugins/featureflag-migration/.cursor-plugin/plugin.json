@@ -8,5 +8,6 @@
     "email": "cdiaz@cursor.com"
   },
   "license": "MIT",
-  "keywords": ["cursor", "plugin", "feature-flags", "openfeature", "migration", "launchdarkly"]
+  "keywords": ["cursor", "plugin", "feature-flags", "openfeature", "migration", "launchdarkly"],
+  "logo": "assets/flag.png"
 }
