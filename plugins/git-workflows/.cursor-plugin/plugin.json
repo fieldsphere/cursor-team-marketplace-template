@@ -2,7 +2,7 @@
   "name": "git-workflows",
   "displayName": "Git Workflows",
   "version": "0.1.0",
-  "description": "Common git workflow skills for commits, PRs, CI, and merge conflict handling.",
+  "description": "Common git workflow skills for commits, PRs, CI, merge conflict handling, and rescuing lost commits.",
   "author": {
     "name": "Cursor Team",
     "email": "hi@cursor.com"
