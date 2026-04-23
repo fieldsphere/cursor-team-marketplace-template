@@ -1,6 +1,6 @@
-# Cursor Trial Plugins
+# Cursor Fundamentals
 
-An example Team Marketplace with five focused plugins for Cursor.
+Team Marketplace **Cursor Fundamentals** (`cursor-fundamentals`): five focused plugins for Cursor.
 
 ## Included plugins
 
