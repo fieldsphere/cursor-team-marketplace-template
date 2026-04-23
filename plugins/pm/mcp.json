@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "Atlassian": {
-      "url": "https://mcp.atlassian.com/v1/mcp",
-      "headers": {}
-    }
-  }
-}

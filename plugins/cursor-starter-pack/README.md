@@ -1,6 +1,8 @@
 # Cursor Starter Pack
 
-Single Cursor plugin with foundational **code quality**, **software design**, everyday skills (**learn**, **commit**, **markdown-naming**, **agent-naming**), workflow skills (**plan-change**, **review-change**, **trace-defect**), **code-skeptic**, **ui-engineer**, **test-engineer**, and **code-oracle** agents, and optional **MCP** configuration.
+Foundational Cursor plugin for **code quality**, **software design**, everyday skills (**learn**, **commit**, **markdown-naming**, **agent-naming**), workflow skills (**git-hygiene**, **plan-output**), **code-skeptic** and **code-oracle** agents, and optional **MCP** configuration.
+
+Markdown file naming lives here so every contributor shares one convention. For README-specific authoring and long-form docs, use the **Technical Writing** plugin in this marketplace.
 
 This directory **is** the plugin root (`.cursor-plugin/`, `rules/`, `skills/`, `agents/`, `mcp.json`). Layout matches [Cursor plugins](https://cursor.com/docs/plugins).
 
@@ -9,18 +11,17 @@ In this repository, the plugin lives at **`plugins/cursor-starter-pack/`**. The 
 ## Contents
 
 | Path | Purpose |
-|------|---------|
+|------|--------|
 | `.cursor-plugin/plugin.json` | Manifest: `name` **cursor-starter-pack**, `displayName` **Cursor Starter Pack** |
 | `rules/code-quality.mdc` | Security, structure, and quality for code in any language |
 | `rules/system-design.mdc` | Boundaries, coupling, APIs, evolution, tradeoffs |
 | `skills/learn/` | Ramp on an unfamiliar codebase |
 | `skills/commit/` | Conventional Commits workflow |
+| `skills/git-hygiene/` | Branch naming, sync, conflicts, PR prep |
 | `skills/markdown-naming/` | Kebab-case naming for `.md`, `.mdc`, plugin layout |
 | `skills/agent-naming/` | Consistent names for cloud and local agents (ticket vs non-ticket) |
-| `skills/plan-change/` | Scope, acceptance criteria, risks, order of work |
-| `skills/review-change/` | Structured PR/diff review checklist |
-| `skills/trace-defect/` | Reproduce, narrow, hypotheses, evidence |
-| `agents/` | `code-skeptic`, `ui-engineer`, `test-engineer`, `code-oracle` |
+| `skills/plan-output/` | Execution-ready plan shape (problem, scope, risks, verification) |
+| `agents/` | `code-skeptic`, `code-oracle` |
 | `mcp.json` | Empty by default; customize per org |
 | `mcp.template.json` | Example MCP entries to copy into `mcp.json` when needed |
 
@@ -28,9 +29,8 @@ In this repository, the plugin lives at **`plugins/cursor-starter-pack/`**. The 
 
 | Skill | Often pairs with |
 |-------|------------------|
-| `plan-change` | Manual planning; optional **test-engineer** then **code-skeptic** after implementation; optional **code-oracle** when the user asks for deep planning or architecture |
-| `review-change` | **code-skeptic** for review and automated checks |
-| `trace-defect` | Search and Cursor’s built-in **Explore** subagent to map unfamiliar code paths |
+| `plan-output` | Manual planning; **Testing** plugin for test work; **code-skeptic** after implementation; **code-oracle** for deep architecture questions |
+| `git-hygiene` | **code-skeptic** before merge when changes are large or risky |
 
 ## Install (local)
 

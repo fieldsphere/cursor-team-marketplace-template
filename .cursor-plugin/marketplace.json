@@ -5,50 +5,35 @@
     "email": "hi@cursor.com"
   },
   "metadata": {
-    "description": "A set of starter plugins for your Cursor trial.",
-    "version": "0.1.0",
+    "description": "A focused Team Marketplace: starter engineering defaults, product management, design, technical writing, and testing.",
+    "version": "0.2.0",
     "pluginRoot": "plugins"
   },
   "plugins": [
     {
-      "name": "git-workflows",
-      "source": "git-workflows",
-      "description": "Git workflows for commit, PR, CI, merge conflicts, and branch validation"
+      "name": "cursor-starter-pack",
+      "source": "cursor-starter-pack",
+      "description": "Engineering baseline: code quality, system design, onboarding, commits, git hygiene, planning, naming, and review agents"
     },
     {
-      "name": "documentation",
-      "source": "documentation",
-      "description": "Documentation workflows for README, weekly review, markdown naming, and doc writing"
-    },
-    {
-      "name": "pm",
-      "source": "pm",
-      "description": "PM workflows with MCP integrations, ticket writing, and board summarization"
+      "name": "product-management",
+      "source": "product-management",
+      "description": "Backlog and delivery: Jira-ready tickets, board summaries, devil's advocate planning critique, Atlassian MCP"
     },
     {
       "name": "design",
       "source": "design",
-      "description": "Design workflows for wireframes, component design, and mockup creation"
+      "description": "UI/UX workflows: wireframes, mockups, component and UI engineer agents, Figma MCP"
     },
     {
-      "name": "testing-reliability",
-      "source": "testing-reliability",
-      "description": "Testing and reliability workflows for Datadog, performance, and test automation"
+      "name": "technical-writing",
+      "source": "technical-writing",
+      "description": "Docs and prose: README updates, weekly reviews, README hygiene, docs writer, optional Notion MCP"
     },
     {
-      "name": "planning",
-      "source": "planning",
-      "description": "Strategic planning workflows including devil's advocate analysis for decision making"
-    },
-    {
-      "name": "featureflag-migration",
-      "source": "featureflag-migration",
-      "description": "Migrate legacy feature flag systems to OpenFeature with inventory, migration, verification, cleanup, and scaffolding"
-    },
-    {
-      "name": "cursor-starter-pack",
-      "source": "cursor-starter-pack",
-      "description": "Engineering starter pack: code quality, system design, onboarding, git hygiene, commits, planning, README hygiene, and review agents"
+      "name": "testing",
+      "source": "testing",
+      "description": "Automated tests: test engineer and test runner agents; extend mcp.json for CI or tooling as needed"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "testing",
+  "displayName": "Testing",
+  "version": "0.2.0",
+  "description": "Testing workflows: test engineer and test runner agents. Add MCP servers in mcp.json when your stack needs them.",
+  "author": {
+    "name": "Cursor Team",
+    "email": "hi@cursor.com"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "testing", "qa", "automation"],
+  "logo": "assets/testing.png"
+}

@@ -1,19 +1,14 @@
 # Cursor Trial Plugins
 
-An example Team Marketplace that includes a set of starter plugins for Cursor.
+An example Team Marketplace with five focused plugins for Cursor.
 
 ## Included plugins
 
-This repo ships these marketplace plugins:
-
-- **git-workflows**: commit, PR, CI, merge conflict, and branch validation workflows
-- **documentation**: README updates, weekly review summaries, markdown naming, and docs writing
-- **pm**: Ticket-oriented PM workflows with MCP config, ticket writing, and board summarization
-- **design**: wireframes, component design support, and mockup workflow
-- **testing-reliability**: Datadog dashboards, performance optimization, and testing agents
-- **planning**: strategic planning workflows including devil's advocate analysis
-- **featureflag-migration**: OpenFeature migration with inventory, verification, and scaffolding
-- **cursor-starter-pack**: code quality, system design, onboarding, git hygiene, commits, planning output, and review agents
+- **cursor-starter-pack**: Code quality, system design, onboarding, commits, git hygiene, planning output, markdown and agent naming, and review-focused agents
+- **product-management**: Jira-oriented ticket writing, board summaries, devil's advocate critique, Atlassian MCP
+- **design**: Wireframes, mockups, component design, UI engineer agent, Figma MCP
+- **technical-writing**: README updates, weekly reviews, README hygiene, docs writer, optional Notion MCP
+- **testing**: Test engineer and test runner agents; empty `mcp.json` ready for your CI or tooling
 
 ## Repository structure
 
@@ -40,5 +35,5 @@ This checks marketplace paths, plugin manifests, and required frontmatter in rul
 - Plugin names are unique, lowercase, and kebab-case
 - `.cursor-plugin/marketplace.json` entries map to real plugin folders
 - Required frontmatter metadata exists in plugin content files
-- Logo paths resolve correctly from each plugin manifest
+- Logo paths resolve correctly from each plugin manifest (if present)
 - `node scripts/validate-template.mjs` passes

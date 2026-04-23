@@ -2,7 +2,7 @@
   "name": "cursor-starter-pack",
   "displayName": "Cursor Starter Pack",
   "version": "1.0.0",
-  "description": "Cursor Starter Pack: code quality, software design, onboarding, commits, planning, review, debugging, agents, and MCP.",
+  "description": "Engineering baseline: code quality, system design, onboarding, commits, git hygiene, planning output, markdown and agent naming, and review agents.",
   "license": "MIT",
   "keywords": ["cursor-starter-pack", "starter", "onboarding", "engineering", "cursor"],
   "author": {

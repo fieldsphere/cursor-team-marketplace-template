@@ -1,13 +1,12 @@
 {
   "name": "design",
   "displayName": "Design",
-  "version": "0.1.0",
-  "description": "Design workflows for wireframes, component design, and production-ready mockups.",
+  "version": "0.2.0",
+  "description": "Design workflows for wireframes, mockups, component design, and UI implementation handoff.",
   "author": {
     "name": "Cursor Team",
     "email": "hi@cursor.com"
   },
   "license": "MIT",
-  "keywords": ["cursor", "plugin", "design", "wireframes", "ui"],
-  "logo": "assets/design.png"
+  "keywords": ["cursor", "plugin", "design", "wireframes", "ui"]
 }
